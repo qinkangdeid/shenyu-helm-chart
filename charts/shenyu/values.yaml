@@ -455,6 +455,8 @@ applicationConfig:
       mapper-locations: classpath:/mappers/*.xml
 
     shenyu:
+      alert:
+        enabled: false
       register:
         # http #zookeeper #etcd #nacos #consul
         registerType: http
