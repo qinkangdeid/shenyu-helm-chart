@@ -2,7 +2,7 @@
 #                global configs                 #
 #################################################
 # it's not recommended to change this version
-version: 2.5.1
+version: 2.7.0
 admin:
   enabled: true
   # replicas of admin, K8s will load balance the requests
