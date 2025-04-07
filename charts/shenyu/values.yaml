@@ -453,7 +453,11 @@ applicationConfig:
     mybatis:
       config-location: classpath:/mybatis/mybatis-config.xml
       mapper-locations: classpath:/mappers/*.xml
-
+    # 禁用邮件健康检查
+    management:
+      health:
+        mail:
+          enabled: false
     shenyu:
       alert:
         enabled: false
