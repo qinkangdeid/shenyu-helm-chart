@@ -197,6 +197,8 @@ applicationConfig:
           enabled: false
 
     shenyu:
+      alert:
+        enabled: false
       trie:
         childrenSize: 10000
         pathVariableSize: 1000
